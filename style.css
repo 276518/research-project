@@ -1,6 +1,21 @@
 body{
-    background:gray;
+    height:100%;
 }
-.col-sm-6{
-    border-radius:50%;
+.featurette-heading{
+    background:white;
+}
+.carousel-inner{
+    height:500px;
+    background:black;
+    padding-top:300px;
+}
+.carousel-slide{
+    margin-top:50px;
+}
+.carousel-caption img{
+    width:250px;
+    margin-left:200px;
+    margin-right:200px;
+    display: inline-block;
+
 }
