@@ -9,6 +9,9 @@
        <!-- STYLE SHEETS -->
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 <!-- JAVASCRIPT -->
@@ -22,20 +25,20 @@
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Space</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
             </div>
@@ -64,7 +67,7 @@
                 <div  class="image">
                   <img src="images/sun.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#sun">Learn more</a></p>
               </div>
             </div>
          </div>
@@ -77,7 +80,7 @@
               <div  class="image">
                 <img src="images/mercury.png">
               </div>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#mercury">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -90,7 +93,7 @@
                 <div  class="image">
                   <img src="images/venus.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#venus">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -103,7 +106,7 @@
                 <div  class="image">
                   <img src="images/earth.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#earth">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -116,7 +119,7 @@
                 </div>
                 <h1>Mars</h1>
                 <p>The Red Planet</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#mars">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -129,7 +132,7 @@
                 <div  class="image">
                   <img src="images/jupiter.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#jupiter">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -142,7 +145,7 @@
                 <div  class="image-saturn">
                   <img src="images/saturn.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#saturn">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -155,7 +158,7 @@
                 </div>
                 <h1>Uranus</h1>
                 <p>The Bulls-Eye Planet</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#uranus">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -168,7 +171,7 @@
                 <div  class="image">
                   <img src="images/neptune.png">
                 </div>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#neptune">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -187,75 +190,157 @@
       
 
     
+    
 
     <!-- START THE FEATURETTES -->
-    <div class="container">
-        <hr class="featurette-divider">
-
+    <div class="light-bg">
+      <div class="container py-5">
+          <div class="row featurette">
+            <div class="col-md-7" id="sun">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It'll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/sun.png">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="dark-bg">
+      <div class="container py-5">
         <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <div class="col-md-7 order-md-2" id="mercury">
+              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5">
+            <img  src="images/mercury.png">
+          </div>
         </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-        </div>
-
-        <hr class="featurette-divider">
-
+      </div>
+    </div>
+    <div class="light-bg">
+      <div class="container py-5">
         <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <div class="col-md-7" id="venus">
+              <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
+              <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="planet" src="images/venus.png">
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-        </div>
+     </div>
+    </div>
 
-        <hr class="featurette-divider">
-
+    <div class="dark-bg">
+      <div class="container py-5">
         <div class="row featurette">
-        <div class="col-md-7">
+          <div class="col-md-7 order-md-2" id="earth">
+              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="planet" src="images/earth.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="light-bg">
+      <div class="container py-5">
+        <div class="row featurette">
+          <div class="col-md-7" id="mars">
             <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
             <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="planet" src="images/mars.png">
+          </div>
         </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-        </div>
+      </div>
+    </div>
 
-        <hr class="featurette-divider">
-        
-
-        <hr class="featurette-divider">
-
+    <div class="dark-bg">
+      <div class="container py-5">
         <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <div class="col-md-7 order-md-2" id="jupiter">
+              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="planet" src="images/jupiter.png">
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-        </div>
+      </div>
+    </div>
 
-        <hr class="featurette-divider">
-
+    <div class="light-bg">
+      <div class="container py-5">
         <div class="row featurette">
-        <div class="col-md-7">
+          <div class="col-md-7" id="saturn">
             <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
             <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="saturn" src="images/saturn.png">
+          </div>
         </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-        </div>
+      </div>
+    </div>
 
-        <hr class="featurette-divider">
+    <div class="dark-bg">
+      <div class="container py-5">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2" id="jupiter">
+              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="uranus" src="images/uranus.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="light-bg">
+      <div class="container py-5">
+        <div class="row featurette">
+          <div class="col-md-7" id="saturn">
+            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="uranus" src="images/neptune.png">
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /END THE FEATURETTES -->
+    <!--POINT NEMO START-->
+  <div class="container py-7">
+    <div  class="nemo"class="row featurette">
+      <h2>PONIT NEMO</h2>
+      <hr class="featurette-divider">
+      <p>Point Nemo is a place on earth that, while it is flying over, you are closer to the international space station than any part of land. Point Nemo is very interesting and sort of scary. It is marked in the middle of the ocean by a red flag off the coast of Chile. </p>
+      <div class="col-md-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d21496070.076786164!2d-141.32340643059626!3d-48.87666667133477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDjCsDUyJzM2LjAiUyAxMjPCsDIzJzM2LjAiVw!5e0!3m2!1sen!2sus!4v1716218813637!5m2!1sen!2sus" width="1300" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+       </div>
+    </div>
+  </div>
+    <!--POINT NEMO END-->
+  <!-- ONE COLUMN START -->
+  <div class="about">
+  <div class="container py-5" id="about">
+    <div class="row">
+      <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+      <p>
+      My essential question was "what is space?". While reasearching I have realized that space is far to big to make one website about so I decided to focus on our solar system. I have always loved space and how facinating it is so i decided to make my website about it. Our planets are very unique and have many different characteristics so I created this website as an all about out solar system and our planets. 
+      </p>
+    </div>
+  </div>
+  </div>
 
+<!-- ONE COLUMN END -->
    </body>
 </html>

@@ -1,8 +1,25 @@
 body{
-    height:100%;
+    width:100%;
+    background:#4f4f4f;
+    font-family:"Oswald",sans-serif;
+}
+
+.light-bg{
+    background-color: #f1f1f1;
+    width:100%;
+}
+.dark-bg{
+    background:#4f4f4f;
+}
+
+p{
+    color:rgb(204, 204, 204);
+}
+.light-bg .featurette-heading{
+    color:#000;
 }
 .featurette-heading{
-    background:white;
+    color:white;
 }
 .carousel-inner{
     height:500px;
@@ -19,3 +36,34 @@ body{
     display: inline-block;
 
 }
+.planet{
+  height:700px;
+  margin:auto;
+}
+.saturn{
+    width:900px;
+}
+
+.uranus{
+    width:600px;
+}
+.nemo{
+    size:30px;
+    color:white;
+    text-align:center;
+    margin-bottom:7%;
+}
+.nemo{
+    text-align:center;
+}
+
+.featurette-divider{
+    color:white;
+}
+.one{
+    background:white;
+}
+.about{
+    background:white;
+}
+
