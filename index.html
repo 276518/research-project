@@ -23,7 +23,7 @@
 
 
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark py-1">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Space</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
         </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" class="carousel">
+    <div id="myCarousel" class="carousel slide mb-6 pt-5" data-bs-ride="carousel" class="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -188,32 +188,34 @@
       </div>
     </div>
 <!-- QUICK LINKS START -->
+  <div class="hero">
     <div class="bg-dark text-white py-5 text-center quick-links">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-3 py-5">
-            <img class="hero-icons" src="images/solar.png">
+            <img  class="img-fluid" class="hero-icons" src="images/solar.png">
             <h6>Solar System</h6>
             <p>This is our solar system. A solar system is a collection of planets, moons, and asteriods that orbit a star.</p>
           </div>
           <div class="col-sm-6 col-md-3 py-5">
-            <img class="hero-icons" src="images/rover.png">
+            <img class="img-fluid" class="hero-icons" src="images/rover.png">
             <h6>Spirit</h6>
             <p>Spirit is a mars rover that was active from 2004-2010. This rover was one of the twin rovers, the other was opportunity. They were famous due to being far more successful that expected.</p>
           </div>
           <div class="col-sm-6 col-md-3 py-5">
-            <img class="hero-icons" src="images/apollo.webp">
+            <img class="img-fluid" class="hero-icons"  src="images/apollo.png">
             <h6>Apollo 11</h6>
             <p>Apollo 11 was the the first ever spacecraft to successfully take people to the moon. The spacecraft took off on July 16, 1969 and landed on the moon four days later.</p>
           </div>
           <div class="col-sm-6 col-md-3 py-5">
-            <img class="hero-icons" src="images/neil.png">
+            <img class="img-fluid" class="hero-icons" src="images/neil.png">
             <h6>Neil Armstrong</h6>
             <p>Neil Armstrong was an astronaut aboard Apollo 11. He was the first man to ever take foot on the moon. He stepped out of the Apollo 11 lunar module and onto the Moon's surface, in an area called the Sea of Tranquility.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 <!-- QUICK LINKS END -->
 <!-- ABOUT START -->
   <div class="about">
@@ -242,7 +244,7 @@
                 <p class="lead">In our solar system we have one star. It's called the sun. It is a massive, hot ball of plasma, inflated and heated by energy produced by reactions in it's core. The sun is so big that we could fit 330,000 Earths inside. We are about 93 million miles away from the sun but we can still feel and see it's rays. The sun is the center of our solar system and it is the object that the rest of the planets orbit around.</p>
             </div>
             <div class="col-md-5">
-              <img src="images/sun.png">
+              <img class="img-fluid" src="images/sun.png">
             </div>
           </div>
       </div>
@@ -252,10 +254,10 @@
         <div class="row featurette">
           <div class="col-md-7 order-md-2" id="mercury">
               <h2 class="featurette-heading fw-normal lh-1">Mercury<span class="text-body-secondary"></span></h2>
-              <p class="dark-lead">Mercury is the first planet is our solar system and is also the smallest. Mercury is only slightly larger that Earth's moon. Mercury is classified as a terrestrial planet, meaning that is has a solid surface and is mainly made of silicate rocks or metals. Mercury's length of a day is 59 earth days! This means that is revolves slowly compared to Earth.</p>
+              <p class="dark-lead">Mercury is the first planet is our Solar System and is also the smallest. Mercury is only slightly larger that Earth's moon. Mercury is classified as a terrestrial planet, meaning that is has a solid surface and is mainly made of silicate rocks or metals. Mercury's length of a day is 59 earth days! This means that is revolves slowly compared to Earth.</p>
           </div>
           <div class="col-md-5">
-            <img  src="images/mercury.png">
+            <img  class="img-fluid" src="images/mercury.png">
           </div>
         </div>
       </div>
@@ -265,10 +267,10 @@
         <div class="row featurette">
           <div class="col-md-7" id="venus">
               <h2 class="featurette-heading fw-normal lh-1">Venus <span class="text-body-secondary"></span></h2>
-              <p class="lead">Venus is the second planet in our solar system and is known for having the most similar mass and size to Earth. Venus is also known for having the most dense atmosphere of the terrestrial planets, composed mostly of carbon dioxide. Venus's length of a day is 243 earth days. It's orbital period, or year, is 225 days meaning that there is less than one Venus day, in one Venus year!</p>
+              <p class="lead">Venus is the second planet in our Solar System and is known for having the most similar mass and size to Earth. Venus is also known for having the most dense atmosphere of the terrestrial planets, composed mostly of carbon dioxide. Venus's length of a day is 243 earth days. It's orbital period, or year, is 225 days meaning that there is less than one Venus day, in one Venus year!</p>
           </div>
           <div class="col-md-5">
-            <img class="planet" src="images/venus.png">
+            <img class="img-fluid" class="planet" src="images/venus.png">
           </div>
         </div>
      </div>
@@ -278,11 +280,11 @@
       <div class="container py-5">
         <div class="row featurette">
           <div class="col-md-7 order-md-2" id="earth">
-              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-              <p class="dark-lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+              <h2 class="featurette-heading fw-normal lh-1">Earth<span class="text-body-secondary"></span></h2>
+              <p class="dark-lead">Earth is the third planet from the sun and the only planet human have found so far so be able to host life. This is because Earth is an ocean world meaning it can sustain a liquid surface. Earth has one moon which controls the tide from it's gravitational pull. The water on Earth covers 70.8% of it's crust! There are 7.951 billion people, 10,000 cities, 195 countries, and 7 continents on Earth!  </p>
           </div>
           <div class="col-md-5">
-            <img class="planet" src="images/earth.png">
+            <img class="img-fluid" class="planet" src="images/earth.png">
           </div>
         </div>
       </div>
@@ -292,11 +294,11 @@
       <div class="container py-5">
         <div class="row featurette">
           <div class="col-md-7" id="mars">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Mars<span class="text-body-secondary"></span></h2>
+            <p class="lead">Mars is the fourth planet from the Sun. The reason Mars is red because it is covered in iron oxide dust. This caused it to get the nickname The Red Planet. Mars has two moons, Phobos and Deimos. Phobos is a bit bigger than Deimos but they are both the smallest moons in the Solar System. From Earth, Mars is the brightest object in our night sky. Mars's length of a day is 1d and 37mins of an Earth day which is very similar to ours. If we were to move human to another planet, it would probably be Mars. </p>
           </div>
           <div class="col-md-5">
-            <img class="planet" src="images/mars.png">
+            <img class="img-fluid"  class="planet" src="images/mars.png">
           </div>
         </div>
       </div>
@@ -306,11 +308,11 @@
       <div class="container py-5">
         <div class="row featurette">
           <div class="col-md-7 order-md-2" id="jupiter">
-              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-              <p class="dark-lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+              <h2 class="featurette-heading fw-normal lh-1">Jupiter<span class="text-body-secondary"></span></h2>
+              <p class="dark-lead">Jupiter is the fifth planet from the Sun and is the largest planet in the Solar System. Even though it is a gas giant, Jupiter's mass is two and a half times more than all of the planets combined! Jupiter's Great Red Spot is a very high-pressure region in it's atmosphere causing the largest storm in the Solar System. The reason for the red-orange color is still unknown. Jupiter has 95 moons! The most famous are Io, Europa, Ganymede, and Callisto. Jupiter also has rings like Saturn, not at complex, but Jupiter has rings. Jupiter's length of a day is only 9hrs! That is less than half of an Earth day.</p>
           </div>
           <div class="col-md-5">
-            <img class="planet" src="images/jupiter.png">
+            <img class="img-fluid"  class="planet" src="images/jupiter.png">
           </div>
         </div>
       </div>
@@ -320,11 +322,11 @@
       <div class="container py-5">
         <div class="row featurette">
           <div class="col-md-7" id="saturn">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Saturn<span class="text-body-secondary"></span></h2>
+            <p class="lead">Saturn is the sixth planet from the Sun and is the second largest planet in the Solar System. Saturn only has about one-eighth the density of Earth, but is 95 times larger. Similar to Jupiter, Saturn's length of a day is only 10hrs whic is less than half of Earth's. Saturn's rings are made up of countless small particles of almost all water ice, with a little trace of rocky material. Saturn's rings are the most impressive and complex in the whole Solar System. Saturn also has 146 moons! The most famous are Titan, Rhea, Hyperion, amd Iapetus. Titan is Saturn's and the Solar System's largest moon.</p>
           </div>
           <div class="col-md-5">
-            <img class="saturn" src="images/saturn.png">
+            <img class="img-fluid" class="saturn" src="images/saturn.png">
           </div>
         </div>
       </div>
@@ -333,12 +335,12 @@
     <div class="dark-bg">
       <div class="container py-5">
         <div class="row featurette">
-          <div class="col-md-7 order-md-2" id="jupiter">
-              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-              <p class="dark-lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <div class="col-md-7 order-md-2" id="uranus">
+              <h2 class="featurette-heading fw-normal lh-1">Uranus<span class="text-body-secondary"></span></h2>
+              <p class="dark-lead">Uranus is the seventh planet from the Sun. It is a gas cyan-coloured ice giant. Most of Uranus is made up od water, methane, and ammonia. Uranus rings not as complex as Saturn but more extensive than those of Jupiter and Neptune. It's rings are made up of small dust particles. Uranus's length of a day is 17hrs which is only about 3/4 of an Earth day. Uranus has 28 known moon with four main ones. New modeling shows that the four main moons, Ariel, Umbriel, Titania, and Oberon, are likley to have and an ocean layer on the surface!</p>
           </div>
           <div class="col-md-5">
-            <img class="uranus" src="images/uranus.png">
+            <img class="img-fluid" class="uranus" src="images/uranus.png">
           </div>
         </div>
       </div>
@@ -347,12 +349,12 @@
     <div class="light-bg">
       <div class="container py-5">
         <div class="row featurette">
-          <div class="col-md-7" id="saturn">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          <div class="col-md-7" id="neptune">
+            <h2 class="featurette-heading fw-normal lh-1">Neptune<span class="text-body-secondary"></span></h2>
+            <p class="lead">Neptune is the eighth and furthest planet from the sun. It is the third largest and densest planet in the Solar System. It is 17 times the mass of Earth and is slighty bigger than it's neighbor Uranus. Neptune is mostly made up of dense fluid of icy materials like water, methane, and ammonia. Neptune's length of a day is only 16hrs. Neptune has 16 planets, the most famous being Triton, Thalassa, Hippocamp, Nereid, and Galatea. Triton, just like Saturn's, is the largets of Neptune's moons by far.</p>
           </div>
           <div class="col-md-5">
-            <img class="uranus" src="images/neptune.png">
+            <img class="img-fluid" class="neptune" src="images/neptune.png">
           </div>
         </div>
       </div>
@@ -361,11 +363,11 @@
     <!--POINT NEMO START-->
   <div class="container py-7">
     <div  class="nemo"class="row featurette">
-      <h2>PONIT NEMO</h2>
+      <h2>POINT NEMO</h2>
       <hr class="featurette-divider">
       <p>Point Nemo is a place on earth that, while it is flying over, you are closer to the international space station than any part of land. Point Nemo is very interesting and sort of scary. It is marked in the middle of the ocean by a red flag off the coast of Chile. </p>
-      <div class="col-md-5">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d21496070.076786164!2d-141.32340643059626!3d-48.87666667133477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDjCsDUyJzM2LjAiUyAxMjPCsDIzJzM2LjAiVw!5e0!3m2!1sen!2sus!4v1716218813637!5m2!1sen!2sus" width="1300" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+      <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d21496070.076786164!2d-141.32340643059626!3d-48.87666667133477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDjCsDUyJzM2LjAiUyAxMjPCsDIzJzM2LjAiVw!5e0!3m2!1sen!2sus!4v1716218813637!5m2!1sen!2sus" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
        </div>
     </div>
   </div>
@@ -375,42 +377,16 @@
 <div class="bg-dark text-white py-5 footer">
 <div class="container py-5">
   <div class="row">
-    <div class="col-sm-3 pb-5">
-        <h5>Heading 1</h3>
+    <div class="col">
+        <h5>Julia Keating</h3>
         <ul class="text-white-50">
-            <li>Lorem ipsum dalor</li>
-            <li>Site amet</li>
-            <li>...</li>
-            <li>...</li>
+            <li>Freshman</li>
+            <li>Glenbrook South Highschool</li>
+            <li>jkharmony09@gmail.com</li>
+            <li>Thank you NASA!</li>
         </ul>
     </div>
-    <div class="col-sm-3 pb-5">
-        <h5>Heading 2</h3>
-            <ul class="text-white-50">
-                <li>Lorem ipsum dalor</li>
-                <li>Site amet</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-    </div>
-    <div class="col-sm-3 pb-5">
-        <h5>Heading 3</h3>
-            <ul class="text-white-50">
-                <li>Lorem ipsum dalor</li>
-                <li>Site amet</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-    </div>
-    <div class="col-sm-3 pb-5">
-        <h5>Heading 4</h3>
-            <ul class="text-white-50">
-                <li>Lorem ipsum dalor</li>
-                <li>Site amet</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-    </div>
+    
   </div>
 </div>
 </div>
